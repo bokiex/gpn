@@ -32,6 +32,7 @@
     <sprite>sprites\spr_goldkey</sprite>
     <sprite>sprites\spr_opened_goldchest</sprite>
     <sprite>sprites\spr_hpotion</sprite>
+    <sprite>sprites\spr_golddoor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkr_trees</background>
@@ -64,6 +65,7 @@
     <object>objects\obj_chest</object>
     <object>objects\obj_hpotion</object>
     <object>objects\obj_goldkey</object>
+    <object>objects\obj_golddoor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
