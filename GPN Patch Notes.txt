@@ -1,0 +1,81 @@
+
+
+//PATCH NOTES
+1: Create skeleton structure of game
+1.1 
+- Add basic movement mechanics
+- Add Jump
+- Add Double Jump
+- Add Wall Jump
+- Add object collisions
+- Add basic physics mechanics
+- Created basic sprites for characters
+
+1.2 
+- Made movement acceleration based
+- Fix infinite jump glitch
+
+1.3 
+- Created camera object
+- Add shooting mechanic via keypress
+- Added basic grapple mechanic
+
+1.4 
+- Made camera follow cursor
+- Added mouse aim to shoot 
+- Added enemies with chase script and basic collision
+- Fix grapple not moving player and not colliding with wall
+
+1.5 
+- Revert camera back to static
+- Added hp to enemy and player
+- Collision check with enemy and player, deals damage to player
+- Remade grapple mechanic logic and code
+
+1.6 
+- Added new and improved sprites to objects
+- Fix player not checking collision with wall while grappling 
+- Improved wall jump mechanic
+- Removed double jump mechanic
+
+2: Introducing new sprites and tiles to game
+2.1
+- Added block specifically for grapples
+- Add acceleration and deceleration to grappling speed 
+- Minor bug fixes to grapple
+
+2.2 
+- Teleporting bug discovered by playtesters
+- Warp mechanic from room to room implemented 
+- Added new enemy and traps
+
+2.3
+- Bug discovered in warp mechanic
+- Create tutorial level
+- Create power up
+
+2.4
+- Fixed teleporting bug
+- Floating grapple bug discovered
+- Added controller to show basic info
+
+3: Polishing game up and adding levels 
+
+3.1
+- Remade tutorial level
+- Fixed floating grapple bug
+- Redo warp mechanic
+- Added checkpoints 
+
+3.2
+- Added Chests to the game
+- Chests are now opened by shooting it
+- Keys now drop from certain Chests
+- Potions added to Chest drop list
+
+3.3
+- Start menu implemented
+
+
+//UPCOMING CHANGES
+- Keys being used to unlock doors
