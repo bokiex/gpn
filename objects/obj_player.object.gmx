@@ -236,21 +236,6 @@ if (place_meeting(x+hsp,y,obj_wall))
     hsp = 0;
 }
 
-//Door Collision
-if (obj_golddoor.opened != true) {
-    if (place_meeting(x+hsp,y,obj_golddoor)) {
-        //Check for key
-        if (obj_player.goldkey == true) {
-            obj_golddoor.opened = true
-        }
-
-        while(!place_meeting(x+sign(hsp),y,obj_golddoor)) {
-            x += sign(hsp);
-        }
-        hsp = 0;
-    }
-}
-
 // Vertical Collision
 if (place_meeting(x,y+vsp,obj_wall))
 {
@@ -318,29 +303,6 @@ if (hp &lt; 0)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_antigrav">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>grav = 0.1;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
@@ -360,7 +322,7 @@ if (hp &lt; 0)
             <kind>1</kind>
             <string>while(place_meeting(x, y, other)) {
     x += lengthdir_x(1, point_direction(other.x, other.y, x, y));
-    y += lengthdir_y(1, point_direction(othr.x, other.y, x, y));
+    y += lengthdir_y(1, point_direction(other.x, other.y, x, y));
 }
 </string>
           </argument>
