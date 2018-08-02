@@ -33,15 +33,8 @@
     <sprite>sprites\spr_opened_goldchest</sprite>
     <sprite>sprites\spr_hpotion</sprite>
     <sprite>sprites\spr_golddoor</sprite>
-<<<<<<< HEAD
     <sprite>sprites\spr</sprite>
     <sprite>sprites\spr_golddoor_opened</sprite>
-=======
-    <sprite>sprites\spr_arrow</sprite>
-    <sprite>sprites\spr_pressureplate</sprite>
-    <sprite>sprites\spr_darttrap</sprite>
-    <sprite>sprites\spr_dart</sprite>
->>>>>>> 8871ab2cc4a15f5ffe6aa03c7cf272b8a606bd9d
   </sprites>
   <backgrounds name="background">
     <background>background\bkr_trees</background>
@@ -57,7 +50,6 @@
     <font>fonts\fnt_game</font>
   </fonts>
   <objects name="objects">
-<<<<<<< HEAD
     <object>objects\obj_player</object>
     <object>objects\obj_grapple</object>
     <object>objects\obj_grappleblock</object>
@@ -67,15 +59,15 @@
     <object>objects\obj_enemy</object>
     <object>objects\obj_cursor</object>
     <object>objects\obj_controller</object>
-=======
->>>>>>> 8871ab2cc4a15f5ffe6aa03c7cf272b8a606bd9d
     <object>objects\obj_spikes</object>
     <object>objects\obj_antigrav</object>
-    <object>objects\obj_pressureplate</object>
-    <object>objects\obj_darttrap</object>
-    <object>objects\obj_dart</object>
+    <object>objects\obj_ghost</object>
+    <object>objects\obj_warp</object>
+    <object>objects\obj_save</object>
+    <object>objects\obj_chest</object>
+    <object>objects\obj_hpotion</object>
+    <object>objects\obj_goldkey</object>
     <object>objects\obj_golddoor</object>
-<<<<<<< HEAD
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
@@ -85,44 +77,6 @@
     <room>rooms\rm_platformer</room>
     <room>rooms\rm_level1_1</room>
     <room>rooms\rm_level1_2</room>
-=======
-    <objects name="Characters">
-      <object>objects\obj_player</object>
-      <object>objects\obj_enemy</object>
-      <object>objects\obj_ghost</object>
-    </objects>
-    <objects name="Weapons">
-      <object>objects\obj_grapple</object>
-      <object>objects\obj_gun</object>
-    </objects>
-    <objects name="Traps">
-      <object>objects\obj_spikes</object>
-    </objects>
-    <objects name="Chest &amp; Items">
-      <object>objects\obj_chest</object>
-      <object>objects\obj_hpotion</object>
-      <object>objects\obj_goldkey</object>
-    </objects>
-    <objects name="Blocks">
-      <object>objects\obj_grappleblock</object>
-      <object>objects\obj_wall</object>
-    </objects>
-    <objects name="Controller">
-      <object>objects\obj_start</object>
-      <object>objects\obj_save</object>
-      <object>objects\obj_warp</object>
-      <object>objects\obj_cursor</object>
-      <object>objects\obj_controller</object>
-    </objects>
-    <objects name="Projectiles">
-      <object>objects\obj_bullet</object>
-    </objects>
-  </objects>
-  <rooms name="rooms">
-    <room>rooms\rm_initialise</room>
-    <room>rooms\rm_menu</room>
-    <room>rooms\rm_dartchamber</room>
->>>>>>> 8871ab2cc4a15f5ffe6aa03c7cf272b8a606bd9d
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
