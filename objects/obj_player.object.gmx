@@ -89,22 +89,6 @@ key_left = -keyboard_check(ord('A'));
 key_right = keyboard_check(ord('D')); 
 key_jump = keyboard_check_pressed(vk_space);
 aim = point_direction(x, y, mouse_x, mouse_y);
-    
-/*
-// Use input 
-move = key_left + key_right; 
-hsp = move * moveSpeed; 
-
-//Gravity, Jumping
-if (vsp &lt; 10) { vsp += grav; };
-if (place_meeting(x, y + 1, obj_wall)) { vsp = key_jump * -jumpSpeed }
-if (place_meeting(x, y + 1, obj_enemy)) { vsp = key_jump * -jumpSpeed }
-
-// H Collisions 
-if (place_meeting(x + hsp, y, obj_wall)) { while (!place_meeting(x + sign(hsp), y, obj_wall)) { x += sign(hsp); } hsp = 0; } x += hsp;
-// v Collisions 
-if (place_meeting(x, y + vsp, obj_wall)) { while (!place_meeting(x, y + sign(vsp), obj_wall)) { y += sign(vsp); } vsp = 0; } y += vsp;
-*/
 
 //Enemy Collisions
 enemycollision = instance_place(floor(x), floor(y), obj_enemy);
@@ -113,7 +97,7 @@ ghostcollision = instance_place(floor(x), floor(y), obj_ghost);
 
 if (enemycollision)
 {
-    hp = hp - 5;
+    hp = hp - 10;
 }
 
 if (spikecollision)
@@ -236,6 +220,16 @@ if (place_meeting(x+hsp,y,obj_wall))
     hsp = 0;
 }
 
+// Vertical Collision
+if (place_meeting(x,y+vsp,obj_wall))
+{
+    while(!place_meeting(x,y+sign(vsp),obj_wall))
+    {
+        y += sign(vsp);
+    }
+    vsp = 0;  
+}
+
 //Door Horizontal Collision
 if (instance_exists(obj_golddoor))
 {
@@ -254,39 +248,32 @@ if (instance_exists(obj_golddoor))
     }    
 }
 
-// Vertical Collision
-if (place_meeting(x,y+vsp,obj_wall))
+// Pressureplate Collisions
+if (instance_exists(obj_pressureplate))
 {
-    while(!place_meeting(x,y+sign(vsp),obj_wall))
+    //Horizontal
+    if (place_meeting(x+hsp,y,obj_pressureplate))
     {
-        y += sign(vsp);
+        while(!place_meeting(x+sign(hsp),y,obj_pressureplate))
+        {
+            x += sign(hsp);
+        }
+        hsp = 0;
     }
-    vsp = 0;  
-}
-if (place_meeting(x+hsp,y,obj_pressureplate))
-{
-    while(!place_meeting(x+sign(hsp),y,obj_pressureplate))
+    
+    //Vertical
+    if (place_meeting(x,y+vsp,obj_pressureplate))
     {
-        x += sign(hsp);
+        while(!place_meeting(x,y+sign(vsp),obj_pressureplate))
+        {
+            y += sign(vsp);
+        }
+        vsp = 0;  
     }
-    hsp = 0;
-}
-
-// Vertical Collision
-if (place_meeting(x,y+vsp,obj_pressureplate))
-{
-    while(!place_meeting(x,y+sign(vsp),obj_pressureplate))
-    {
-        y += sign(vsp);
-    }
-    vsp = 0;  
 }
 
 x += hsp;
 y += vsp;
-
-
-
 
 //Animations
 

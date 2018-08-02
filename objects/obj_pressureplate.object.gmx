@@ -52,6 +52,21 @@ image_index = 0;
             <string>if place_meeting(x,y-10,obj_player)
 {
     image_index = 1;
+    with (obj_darttrapidle)
+    {
+        instance_change (obj_darttrapactive, true);
+    }
+}
+else
+{
+    image_index = 0;
+    if instance_number(obj_darttrapactive) &gt; 0
+    {
+        with (obj_darttrapactive)
+        {
+            instance_change(obj_darttrapidle,true);
+        }
+    }
 }
 </string>
           </argument>

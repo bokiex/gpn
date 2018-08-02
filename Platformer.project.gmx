@@ -34,7 +34,8 @@
     <sprite>sprites\spr_hpotion</sprite>
     <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_pressureplate</sprite>
-    <sprite>sprites\spr_darttrap</sprite>
+    <sprite>sprites\spr_darttrapidle</sprite>
+    <sprite>sprites\spr_darttrapactive</sprite>
     <sprite>sprites\spr_dart</sprite>
     <sprite>sprites\spr_golddoor</sprite>
     <sprite>sprites\spr_golddoor_opened</sprite>
@@ -53,11 +54,7 @@
     <font>fonts\fnt_game</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_spikes</object>
     <object>objects\obj_antigrav</object>
-    <object>objects\obj_pressureplate</object>
-    <object>objects\obj_darttrap</object>
-    <object>objects\obj_dart</object>
     <object>objects\obj_golddoor</object>
     <objects name="Characters">
       <object>objects\obj_player</object>
@@ -86,15 +83,22 @@
     </objects>
     <objects name="Projectiles">
       <object>objects\obj_bullet</object>
+      <object>objects\obj_dart</object>
+    </objects>
+    <objects name="Traps">
+      <object>objects\obj_darttrapidle</object>
+      <object>objects\obj_darttrapactive</object>
+      <object>objects\obj_spikes</object>
+      <object>objects\obj_pressureplate</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_testchamber</room>
     <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_chest</room>
     <room>rooms\rm_platformer</room>
-    <room>rooms\rm_dartchamber</room>
     <room>rooms\rm_level1_1</room>
     <room>rooms\rm_level1_2</room>
     <room>rooms\rm_bossroom</room>
