@@ -125,11 +125,7 @@
     <instance objName="obj_cursor" x="128" y="96" name="inst_A69CB7F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_chest" x="543" y="878" name="inst_D6C3D966" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_hpotion" x="299" y="877" name="inst_C26C1DDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-<<<<<<< HEAD
-    <instance objName="obj_golddoor" x="653" y="867" name="inst_16415A86" locked="0" code="" scaleX="1.32000005245209" scaleY="1.46031749248505" colour="4294967295" rotation="0"/>
-=======
-    <instance objName="obj_warp" x="587" y="830" name="inst_4C1125AD" locked="0" code="target_x = 96&#xA;target_y = 576&#xA;target_r = rm_tutorial1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
->>>>>>> 14ef8c6ddbf21e3794f07c8e5c9a0de4ea71cb05
+    <instance objName="obj_golddoor" x="647" y="869" name="inst_16415A86" locked="0" code="" scaleX="1.32000005245209" scaleY="1.46031749248505" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tset_ground" x="128" y="896" w="64" h="64" xo="64" yo="0" id="10000462" name="inst_72D31F52" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -3,7 +3,7 @@
   <spriteName>spr_goldchest</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>50</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>opened = false;
-depth = 50
 </string>
           </argument>
         </arguments>

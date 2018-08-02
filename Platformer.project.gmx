@@ -32,11 +32,9 @@
     <sprite>sprites\spr_goldkey</sprite>
     <sprite>sprites\spr_opened_goldchest</sprite>
     <sprite>sprites\spr_hpotion</sprite>
-<<<<<<< HEAD
     <sprite>sprites\spr_golddoor</sprite>
-=======
-    <sprite>sprites\spr_arrow</sprite>
->>>>>>> 14ef8c6ddbf21e3794f07c8e5c9a0de4ea71cb05
+    <sprite>sprites\spr</sprite>
+    <sprite>sprites\spr_golddoor_opened</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkr_trees</background>
@@ -45,14 +43,13 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\script0.gml</script>
     <script>scripts\scr_death.gml</script>
-    <script>scripts\scr_menu.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_game</font>
   </fonts>
   <objects name="objects">
-<<<<<<< HEAD
     <object>objects\obj_player</object>
     <object>objects\obj_grapple</object>
     <object>objects\obj_grappleblock</object>
@@ -71,45 +68,11 @@
     <object>objects\obj_hpotion</object>
     <object>objects\obj_goldkey</object>
     <object>objects\obj_golddoor</object>
-=======
-    <objects name="Characters">
-      <object>objects\obj_player</object>
-      <object>objects\obj_enemy</object>
-      <object>objects\obj_ghost</object>
-    </objects>
-    <objects name="Weapons">
-      <object>objects\obj_grapple</object>
-      <object>objects\obj_gun</object>
-    </objects>
-    <objects name="Traps">
-      <object>objects\obj_spikes</object>
-    </objects>
-    <objects name="Chest &amp; Items">
-      <object>objects\obj_chest</object>
-      <object>objects\obj_hpotion</object>
-      <object>objects\obj_goldkey</object>
-    </objects>
-    <objects name="Blocks">
-      <object>objects\obj_grappleblock</object>
-      <object>objects\obj_wall</object>
-    </objects>
-    <objects name="Controller">
-      <object>objects\obj_start</object>
-      <object>objects\obj_save</object>
-      <object>objects\obj_warp</object>
-      <object>objects\obj_cursor</object>
-      <object>objects\obj_controller</object>
-    </objects>
-    <objects name="Projectiles">
-      <object>objects\obj_bullet</object>
-    </objects>
->>>>>>> 14ef8c6ddbf21e3794f07c8e5c9a0de4ea71cb05
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
-    <room>rooms\rm_menu</room>
-    <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_chest</room>
+    <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_tutorial2</room>
     <room>rooms\rm_platformer</room>
     <room>rooms\rm_level1_1</room>
