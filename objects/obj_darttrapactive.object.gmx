@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(x,y,obj_dart);
+            <string>fire = true
+
 </string>
           </argument>
         </arguments>
@@ -48,7 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_change(obj_darttrapidle, true);
+            <string>fire = true;
 </string>
           </argument>
         </arguments>
@@ -71,12 +72,33 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if image_index &gt; 1
+            <string>/*if image_index &gt; 1
 {
     sprite_index = spr_darttrapidle;
     image_speed = 1;
     alarm[0] = 99999999;
+}*/
+plateid = 0;
+with(obj_pressureplate){
+    if (steppedon)
+    {
+        obj_darttrapactive.plateid = plateid
+    }
+    
 }
+
+if (dartid == plateid)
+{
+    if (fire)
+    {
+        instance_create(x,y,obj_dart)
+        fire=false;
+        alarm[0] = room_speed * 0.5;
+    }    
+
+}
+
+
 </string>
           </argument>
         </arguments>

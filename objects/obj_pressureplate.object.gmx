@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>image_speed = 0;
 image_index = 0;
+steppedon = false;
 </string>
           </argument>
         </arguments>
@@ -49,24 +50,21 @@ image_index = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if place_meeting(x,y-10,obj_player)
+            <string>
+if place_meeting(x, y,obj_player)
 {
-    image_index = 1;
-    with (obj_darttrapidle)
+
+    /*with (obj_darttrapidle)
     {
         instance_change (obj_darttrapactive, true);
-    }
+    }*/
+    steppedon = true;
+    image_index = 1;
 }
 else
 {
     image_index = 0;
-    if instance_number(obj_darttrapactive) &gt; 0
-    {
-        with (obj_darttrapactive)
-        {
-            instance_change(obj_darttrapidle,true);
-        }
-    }
+    steppedon = false;
 }
 </string>
           </argument>

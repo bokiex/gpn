@@ -86,7 +86,6 @@
       <object>objects\obj_dart</object>
     </objects>
     <objects name="Traps">
-      <object>objects\obj_darttrapidle</object>
       <object>objects\obj_darttrapactive</object>
       <object>objects\obj_spikes</object>
       <object>objects\obj_pressureplate</object>

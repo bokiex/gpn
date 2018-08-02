@@ -78,10 +78,12 @@
     <instance objName="obj_wall" x="1248" y="640" name="inst_4CE28517" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="64" y="576" name="inst_F362945A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="288" y="640" name="inst_AA080D27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pressureplate" x="304" y="604" name="inst_0B0ED765" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_darttrapidle" x="688" y="576" name="inst_90F4CDA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="672" y="576" name="inst_5BED5A20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="1176" y="536" name="inst_5BED5A20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy" x="980" y="576" name="inst_0FAE10DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pressureplate" x="220" y="600" name="inst_B6EBE651" locked="0" code="&#xA;plateid = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_darttrapactive" x="660" y="576" name="inst_7C2C3525" locked="0" code="dartid = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pressureplate" x="352" y="604" name="inst_25C582C7" locked="0" code="&#xA;plateid = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_darttrapactive" x="544" y="524" name="inst_6256D29A" locked="0" code="dartid = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tset_ground" x="0" y="608" w="64" h="64" xo="64" yo="64" id="10000763" name="inst_C838544B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
