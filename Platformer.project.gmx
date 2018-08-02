@@ -32,11 +32,12 @@
     <sprite>sprites\spr_goldkey</sprite>
     <sprite>sprites\spr_opened_goldchest</sprite>
     <sprite>sprites\spr_hpotion</sprite>
-    <sprite>sprites\spr_golddoor</sprite>
     <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_pressureplate</sprite>
     <sprite>sprites\spr_darttrap</sprite>
     <sprite>sprites\spr_dart</sprite>
+    <sprite>sprites\spr_golddoor</sprite>
+    <sprite>sprites\spr_golddoor_opened</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkr_trees</background>
@@ -67,9 +68,6 @@
       <object>objects\obj_grapple</object>
       <object>objects\obj_gun</object>
     </objects>
-    <objects name="Traps">
-      <object>objects\obj_spikes</object>
-    </objects>
     <objects name="Chest &amp; Items">
       <object>objects\obj_chest</object>
       <object>objects\obj_hpotion</object>
@@ -93,10 +91,10 @@
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_chest</room>
     <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_platformer</room>
     <room>rooms\rm_dartchamber</room>
-    <room>rooms\rm_chest</room>
     <room>rooms\rm_level1_1</room>
     <room>rooms\rm_level1_2</room>
     <room>rooms\rm_bossroom</room>

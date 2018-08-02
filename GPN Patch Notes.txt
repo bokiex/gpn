@@ -74,6 +74,9 @@
 3.3
 - Start menu implemented
 
+3.4
+- Added Doors
+- Keys are now used to unlock doors
 
 //UPCOMING CHANGES
-- Keys being used to unlock doors
+- New Levels!
