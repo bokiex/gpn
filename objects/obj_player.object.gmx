@@ -237,18 +237,21 @@ if (place_meeting(x+hsp,y,obj_wall))
 }
 
 //Door Horizontal Collision
-if (obj_golddoor.opened != true) {
-    if (place_meeting(x+hsp,y,obj_golddoor)) {
-        //Check for key
-        if (obj_player.goldkey == true) {
-            obj_golddoor.opened = true
+if (instance_exists(obj_golddoor))
+{
+    if (obj_golddoor.opened != true) {
+        if (place_meeting(x+hsp,y,obj_golddoor)) {
+            //Check for key
+            if (obj_player.goldkey == true) {
+                obj_golddoor.opened = true
+            }
+    
+            while(!place_meeting(x+sign(hsp),y,obj_golddoor)) {
+                x += sign(hsp);
+            }
+            hsp = 0;
         }
-
-        while(!place_meeting(x+sign(hsp),y,obj_golddoor)) {
-            x += sign(hsp);
-        }
-        hsp = 0;
-    }
+    }    
 }
 
 // Vertical Collision
