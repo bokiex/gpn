@@ -38,11 +38,10 @@ movespeed = 4;
 wallmovespeed = 5;
 
 vsp = 0;
-fallspeed = 6;
-jumpspeed = -15;
-walljumpspeed = -25;
+fallspeed = 10;
+jumpspeed = -8;
+walljumpspeed = -6.5;
 wallfallspeed = 1;
-
 fric = 0.5;
 
 jumpbuffer = 0;
@@ -88,6 +87,8 @@ goldkey = false;
 key_left = -keyboard_check(ord('A')); 
 key_right = keyboard_check(ord('D')); 
 key_jump = keyboard_check_pressed(vk_space);
+key_jump_held = keyboard_check(vk_space);
+key_next = keyboard_check(ord('T'));
 aim = point_direction(x, y, mouse_x, mouse_y);
 
 //Enemy Collisions
@@ -95,6 +96,14 @@ enemycollision = instance_place(floor(x), floor(y), obj_enemy);
 spikecollision = instance_place(floor(x), floor(y), obj_spikes);
 ghostcollision = instance_place(floor(x), floor(y), obj_ghost);
 
+if (key_next)
+{
+    grav = 0;
+}
+else
+{
+    grav = 0.3;
+}
 if (enemycollision)
 {
     hp = hp - 10;
@@ -190,7 +199,7 @@ if (grappled)
         {
             vsp = fallspeed;
         }
-        if(onground)
+        if(onground || onwall)
         {
             vsp = 0;
             grappled = false;
@@ -209,6 +218,9 @@ if (jumpbuffer &gt; 0)
         vsp = jumpspeed
     }      
 }
+
+if (vsp &lt; 0) &amp;&amp; (!key_jump_held) vsp = max(vsp,0)
+
 
 // Horizontal Collision
 if (place_meeting(x+hsp,y,obj_wall))

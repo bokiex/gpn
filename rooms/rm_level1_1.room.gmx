@@ -143,15 +143,15 @@
     <instance objName="obj_wall" x="960" y="448" name="inst_F29C426E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1024" y="448" name="inst_46FB33BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1088" y="448" name="inst_547E1DA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="544" y="288" name="inst_E828750F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="608" y="288" name="inst_7BAE213C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="672" y="288" name="inst_FFA6ECF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="736" y="288" name="inst_AB6D9846" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warp" x="0" y="320" name="inst_98A38812" locked="0" code="target_x = 2752&#xA;target_y = 320&#xA;target_r = room_tut2&#xA;" scaleX="0.5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="544" y="352" name="inst_E828750F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="608" y="352" name="inst_7BAE213C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="672" y="352" name="inst_FFA6ECF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="736" y="352" name="inst_AB6D9846" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warp" x="0" y="320" name="inst_98A38812" locked="0" code="target_x = 2752&#xA;target_y = 320&#xA;target_r = rm_tutorial1&#xA;" scaleX="0.5" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="64" y="448" name="inst_750CEDC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_grappleblock" x="640" y="32" name="inst_5D93AE3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warp" x="576" y="-32" name="inst_CBA72210" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_save" x="64" y="384" name="inst_D67F84CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_grappleblock" x="640" y="64" name="inst_5D93AE3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_save" x="640" y="224" name="inst_D67F84CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warp" x="544" y="0" name="inst_610D05CB" locked="0" code="target_x = 832&#xA;target_y = 1312&#xA;target_r = rm_level1_2&#xA;" scaleX="3.04761910438538" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tset_ground" x="160" y="416" w="64" h="64" xo="64" yo="64" id="10000673" name="inst_CB9FD5CC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

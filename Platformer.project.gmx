@@ -94,14 +94,16 @@
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_testchamber</room>
     <room>rooms\rm_tutorial1</room>
-    <room>rooms\rm_chest</room>
-    <room>rooms\rm_platformer</room>
     <room>rooms\rm_level1_1</room>
     <room>rooms\rm_level1_2</room>
-    <room>rooms\rm_bossroom</room>
     <room>rooms\rm_tutorial2</room>
+    <room>rooms\rm_bossroom</room>
+    <rooms name="tests">
+      <room>rooms\rm_testchamber</room>
+      <room>rooms\rm_chest</room>
+      <room>rooms\rm_platformer</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
