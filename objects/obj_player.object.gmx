@@ -219,9 +219,6 @@ if (jumpbuffer &gt; 0)
     }      
 }
 
-if (vsp &lt; 0) &amp;&amp; (!key_jump_held) vsp = max(vsp,0)
-
-
 // Horizontal Collision
 if (place_meeting(x+hsp,y,obj_wall))
 {
@@ -230,6 +227,14 @@ if (place_meeting(x+hsp,y,obj_wall))
         x += sign(hsp);
     }
     hsp = 0;
+    
+    if (obj_grapple.active)
+    {
+        if (onwall)
+        {
+            grappled = true;
+        }
+    }
 }
 
 // Vertical Collision

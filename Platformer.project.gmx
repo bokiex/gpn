@@ -55,7 +55,6 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_antigrav</object>
-    <object>objects\obj_golddoor</object>
     <objects name="Characters">
       <object>objects\obj_player</object>
       <object>objects\obj_enemy</object>
@@ -90,6 +89,9 @@
       <object>objects\obj_spikes</object>
       <object>objects\obj_pressureplate</object>
     </objects>
+    <objects name="Doors">
+      <object>objects\obj_golddoor</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
@@ -100,9 +102,9 @@
     <room>rooms\rm_tutorial2</room>
     <room>rooms\rm_bossroom</room>
     <rooms name="tests">
-      <room>rooms\rm_testchamber</room>
       <room>rooms\rm_chest</room>
       <room>rooms\rm_platformer</room>
+      <room>rooms\rm_testchamber</room>
     </rooms>
   </rooms>
   <help>

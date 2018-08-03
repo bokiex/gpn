@@ -72,25 +72,20 @@ if (active)
 {
     var aim = point_direction(obj_player.x, obj_player.y, x, y);
     obj_player.direction = aim;
-    obj_player.vsp =0;
+    obj_player.vsp = 0;
     if (obj_player.speed &lt; 10 &amp;&amp; instance_exists(obj_grapple))
     {
         obj_player.speed += 0.5;   
     }
 
+    // Collision check for grapple and player
     if (place_meeting(x, y, obj_player))
     {
         obj_player.grappled = true;
         active = false;
     }
     
-    with(obj_player)
-    {
-        if (place_meeting(x,y,obj_wall))
-        {
-            grappled = true;
-        }
-    }
+
     if (obj_player.grappled)
     {
         instance_destroy();
