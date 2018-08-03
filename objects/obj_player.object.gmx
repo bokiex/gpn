@@ -195,7 +195,6 @@ if (grappled)
         {
             if (!onground &amp; !onwall)
             {
-                show_message("aallalaa")
                 vsp += grav; 
             }
         }
