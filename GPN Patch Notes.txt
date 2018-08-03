@@ -79,5 +79,12 @@
 - Keys are now used to unlock doors
 - Added Pressure Plates & Traps
 
+3.5
+- Added minibosses
+- Minibosses now drop the keys
+
 //UPCOMING CHANGES
 - New Levels!
+- Introducing lives into the game
+- New Item that gives +1 life
+- Lighting
