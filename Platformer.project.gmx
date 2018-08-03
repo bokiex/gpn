@@ -42,6 +42,7 @@
     <sprite>sprites\spr_torch</sprite>
   </sprites>
   <backgrounds name="background">
+    <background>background\tset_dungeon</background>
     <background>background\bkr_trees</background>
     <background>background\tset_ground</background>
     <background>background\bkr_world</background>
