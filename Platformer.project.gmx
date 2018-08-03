@@ -39,6 +39,7 @@
     <sprite>sprites\spr_dart</sprite>
     <sprite>sprites\spr_golddoor</sprite>
     <sprite>sprites\spr_golddoor_opened</sprite>
+    <sprite>sprites\spr_torch</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkr_trees</background>
@@ -54,7 +55,7 @@
     <font>fonts\fnt_game</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_antigrav</object>
+    <object>objects\obj_torch</object>
     <objects name="Characters">
       <object>objects\obj_player</object>
       <object>objects\obj_enemy</object>
@@ -79,6 +80,7 @@
       <object>objects\obj_warp</object>
       <object>objects\obj_cursor</object>
       <object>objects\obj_controller</object>
+      <object>objects\obj_lightingsystem</object>
     </objects>
     <objects name="Projectiles">
       <object>objects\obj_bullet</object>
@@ -96,13 +98,13 @@
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_testchamber</room>
     <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_level1_1</room>
     <room>rooms\rm_level1_2</room>
     <room>rooms\rm_tutorial2</room>
     <room>rooms\rm_bossroom</room>
     <rooms name="tests">
-      <room>rooms\rm_testchamber</room>
       <room>rooms\rm_chest</room>
       <room>rooms\rm_platformer</room>
     </rooms>
