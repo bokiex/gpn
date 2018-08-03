@@ -77,6 +77,7 @@
 3.4
 - Added Doors
 - Keys are now used to unlock doors
+- Added Pressure Plates & Traps
 
 //UPCOMING CHANGES
 - New Levels!

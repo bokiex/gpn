@@ -119,13 +119,11 @@
     <instance objName="obj_wall" x="736" y="928" name="inst_7EB9086F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="288" y="928" name="inst_0FF60772" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1120" y="928" name="inst_E9837D19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="160" y="864" name="inst_E717A658" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_gun" x="192" y="864" name="inst_67DADD77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="1021" y="864" name="inst_E717A658" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gun" x="1056" y="872" name="inst_67DADD77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controller" x="96" y="96" name="inst_0FF43525" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cursor" x="128" y="96" name="inst_A69CB7F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_chest" x="543" y="878" name="inst_D6C3D966" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hpotion" x="299" y="877" name="inst_C26C1DDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_golddoor" x="647" y="869" name="inst_16415A86" locked="0" code="" scaleX="1.32000005245209" scaleY="1.46031749248505" colour="4294967295" rotation="0"/>
+    <instance objName="obj_miniboss" x="305" y="863" name="inst_0835D54B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tset_ground" x="128" y="896" w="64" h="64" xo="64" yo="0" id="10000462" name="inst_72D31F52" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

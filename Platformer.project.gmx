@@ -39,6 +39,9 @@
     <sprite>sprites\spr_dart</sprite>
     <sprite>sprites\spr_golddoor</sprite>
     <sprite>sprites\spr_golddoor_opened</sprite>
+    <sprite>sprites\spr_miniboss</sprite>
+    <sprite>sprites\spr_miniboss_damaged</sprite>
+    <sprite>sprites\spr_shuriken</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkr_trees</background>
@@ -59,6 +62,7 @@
       <object>objects\obj_player</object>
       <object>objects\obj_enemy</object>
       <object>objects\obj_ghost</object>
+      <object>objects\obj_miniboss</object>
     </objects>
     <objects name="Weapons">
       <object>objects\obj_grapple</object>
@@ -83,6 +87,7 @@
     <objects name="Projectiles">
       <object>objects\obj_bullet</object>
       <object>objects\obj_dart</object>
+      <object>objects\obj_bossbullet</object>
     </objects>
     <objects name="Traps">
       <object>objects\obj_darttrapactive</object>
@@ -96,16 +101,16 @@
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
     <room>rooms\rm_menu</room>
+    <rooms name="tests">
+      <room>rooms\rm_chest</room>
+      <room>rooms\rm_testchamber</room>
+      <room>rooms\rm_platformer</room>
+    </rooms>
     <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_level1_1</room>
     <room>rooms\rm_level1_2</room>
     <room>rooms\rm_tutorial2</room>
     <room>rooms\rm_bossroom</room>
-    <rooms name="tests">
-      <room>rooms\rm_testchamber</room>
-      <room>rooms\rm_chest</room>
-      <room>rooms\rm_platformer</room>
-    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
