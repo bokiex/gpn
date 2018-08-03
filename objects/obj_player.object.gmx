@@ -88,6 +88,7 @@ key_left = -keyboard_check(ord('A'));
 key_right = keyboard_check(ord('D')); 
 key_jump = keyboard_check_pressed(vk_space);
 key_jump_held = keyboard_check(vk_space);
+key_potion = keyboard_check_pressed(ord('E'));
 key_next = keyboard_check(ord('T'));
 aim = point_direction(x, y, mouse_x, mouse_y);
 
@@ -163,6 +164,17 @@ if (walljumpdelay == 0)
         }    
     }
 }
+
+//Health Potion
+if (key_potion == 1) {
+    if (hpot_qty &gt; 0) {
+        hp += 50
+        if (hp &gt; 100)
+            hp = 100
+        hpot_qty -= 1
+    }
+}
+
 // Wall jump
 if (onwall != 0) &amp;&amp; (!onground) &amp;&amp; (key_jump) // check whether player is off wall and ground with key jump pressed
 {
@@ -425,7 +437,7 @@ var i = hpot_qty
 draw_text(23, 105, "x " + string(i))
 
 if (goldkey) {
-    draw_sprite(spr_goldkey, 0, 63, 108)    
+    draw_sprite(spr_goldkey, 0, 65, 108)    
 }
 </string>
           </argument>

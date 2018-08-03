@@ -108,7 +108,18 @@ image_speed = 0.5
           <argument>
             <kind>1</kind>
             <string>sprite_index = spr_naruto
-location = irandom_range(90,1180)
+//Determine Left or Right
+leftright = choose(1,2)
+//Teleport a certain distance away from player
+if (leftright == 1 &amp;&amp; obj_player.x &gt; 91) {
+    location = irandom_range(90,obj_player.x-10)
+}
+else {
+    if (obj_player.x &lt; 1179)
+        location = irandom_range(obj_player.x-10, 1180)
+    else
+        location = irandom_range(90,obj_player.x-10)
+}
 timer = irandom_range(2,6)
 x = location
 alarm[6] = (timer - 0.2) * room_speed
