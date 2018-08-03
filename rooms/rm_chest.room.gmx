@@ -124,6 +124,9 @@
     <instance objName="obj_controller" x="96" y="96" name="inst_0FF43525" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cursor" x="128" y="96" name="inst_A69CB7F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_miniboss" x="305" y="863" name="inst_0835D54B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_grappleblock" x="949" y="433" name="inst_F5202481" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_grappleblock" x="363" y="431" name="inst_B60E8495" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_grappleblock" x="635" y="580" name="inst_BBB303BA" locked="0" code="" scaleX="36.6451606750488" scaleY="0.129999995231628" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tset_ground" x="128" y="896" w="64" h="64" xo="64" yo="0" id="10000462" name="inst_72D31F52" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

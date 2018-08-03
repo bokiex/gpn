@@ -42,6 +42,8 @@
     <sprite>sprites\spr_miniboss</sprite>
     <sprite>sprites\spr_miniboss_damaged</sprite>
     <sprite>sprites\spr_shuriken</sprite>
+    <sprite>sprites\spr_miniboss_tp</sprite>
+    <sprite>sprites\spr_naruto</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkr_trees</background>

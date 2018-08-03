@@ -195,7 +195,6 @@ if (grappled)
         {
             if (!onground &amp; !onwall)
             {
-                show_message("aallalaa")
                 vsp += grav; 
             }
         }
@@ -205,7 +204,6 @@ if (grappled)
         }
         if(onground || onwall)
         {
-            show_message("onwal")
             vsp = 0;
             grappled = false;
         } 
@@ -424,7 +422,7 @@ if !instance_exists(obj_grapple) {
             <string>draw_sprite(spr_hpotion, 0, 13, 108)
 
 var i = hpot_qty
-draw_text(23, 95, "x " + string(i))
+draw_text(23, 105, "x " + string(i))
 
 if (goldkey) {
     draw_sprite(spr_goldkey, 0, 63, 108)    
