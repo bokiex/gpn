@@ -191,9 +191,13 @@ if (grappled)
     else
     {
         speed = 0;
-        if (vsp &lt; fallspeed &amp;&amp; !onground)
+        if (vsp &lt; fallspeed)
         {
-            vsp += grav;
+            if (!onground &amp; !onwall)
+            {
+                show_message("aallalaa")
+                vsp += grav; 
+            }
         }
         else
         {
@@ -201,6 +205,7 @@ if (grappled)
         }
         if(onground || onwall)
         {
+            show_message("onwal")
             vsp = 0;
             grappled = false;
         } 
@@ -228,13 +233,6 @@ if (place_meeting(x+hsp,y,obj_wall))
     }
     hsp = 0;
     
-    if (obj_grapple.active)
-    {
-        if (onwall)
-        {
-            grappled = true;
-        }
-    }
 }
 
 // Vertical Collision

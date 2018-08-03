@@ -274,6 +274,8 @@
     <tile bgName="tset_ground" x="800" y="352" w="64" h="64" xo="0" yo="128" id="10000835" name="inst_7632FDDA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tset_ground" x="800" y="416" w="64" h="64" xo="0" yo="128" id="10000836" name="inst_612C9B55" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tset_ground" x="800" y="480" w="64" h="64" xo="0" yo="192" id="10000837" name="inst_D91B1D64" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tset_ground" x="224" y="544" w="64" h="64" xo="64" yo="64" id="10001185" name="inst_053C9FFC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tset_ground" x="672" y="224" w="64" h="64" xo="64" yo="64" id="10001186" name="inst_435189AA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

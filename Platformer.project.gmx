@@ -102,9 +102,9 @@
     <room>rooms\rm_tutorial2</room>
     <room>rooms\rm_bossroom</room>
     <rooms name="tests">
+      <room>rooms\rm_testchamber</room>
       <room>rooms\rm_chest</room>
       <room>rooms\rm_platformer</room>
-      <room>rooms\rm_testchamber</room>
     </rooms>
   </rooms>
   <help>
