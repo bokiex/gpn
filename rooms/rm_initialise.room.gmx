@@ -15,7 +15,13 @@ global.checkpointR = 0;
 global.checkpointx = 0;
 global.checkpointx = 0;
 
-room_goto_next();</code>
+room_goto_next();
+
+enum e_state
+{
+    idle = 50,
+    chase
+}</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
