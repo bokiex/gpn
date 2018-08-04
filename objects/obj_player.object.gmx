@@ -3,7 +3,7 @@
   <spriteName>spr_playerright</spriteName>
   <solid>-1</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-10</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -53,8 +53,6 @@ onwall = false;
 
 grappled = false;
 
-depth = -10;
-
 //Inventory
 //Inventory
 hpot_qty = 0;
@@ -84,7 +82,7 @@ goldkey = false;
             <kind>1</kind>
             <string>///Lighting
 if (instance_exists(obj_lightingsystem) == 1){
-    size = 500;
+    size = 300;
     draw_set_blend_mode(bm_subtract);
     surface_set_target(light);
     draw_ellipse_color(x - size / 2 - view_xview,y-size/2-view_yview,x+size/2-view_xview,y+size/2-view_yview,c_white,c_black,false);

@@ -42,10 +42,14 @@
     <sprite>sprites\spr_torch</sprite>
   </sprites>
   <backgrounds name="background">
+    <background>background\bkr_cavefront</background>
+    <background>background\bkr_caveback</background>
     <background>background\tset_dungeon</background>
     <background>background\bkr_trees</background>
     <background>background\tset_ground</background>
     <background>background\bkr_world</background>
+    <background>background\tset_bricks</background>
+    <background>background\bkr_menu</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -83,6 +87,7 @@
       <object>objects\obj_cursor</object>
       <object>objects\obj_controller</object>
       <object>objects\obj_lightingsystem</object>
+      <object>objects\obj_backgroundcontrol</object>
     </objects>
     <objects name="Projectiles">
       <object>objects\obj_bullet</object>
