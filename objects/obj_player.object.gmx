@@ -234,7 +234,6 @@ if (grappled)
         }
         if(onground || onwall)
         {
-            show_message("onwal")
             vsp = 0;
             grappled = false;
         } 

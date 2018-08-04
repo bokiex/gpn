@@ -18,7 +18,10 @@
     <sprite>sprites\spr_gun</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_hitmark</sprite>
-    <sprite>sprites\spr_enemyidle</sprite>
+    <sprite>sprites\spr_enemyleft</sprite>
+    <sprite>sprites\spr_enemywalkright</sprite>
+    <sprite>sprites\spr_enemywalkleft</sprite>
+    <sprite>sprites\spr_enemyright</sprite>
     <sprite>sprites\spr_enemydead</sprite>
     <sprite>sprites\spr_cursor</sprite>
     <sprite>sprites\spr_door</sprite>
@@ -66,6 +69,7 @@
       <object>objects\obj_player</object>
       <object>objects\obj_enemy</object>
       <object>objects\obj_ghost</object>
+      <object>objects\obj_enemydead</object>
     </objects>
     <objects name="Weapons">
       <object>objects\obj_grapple</object>

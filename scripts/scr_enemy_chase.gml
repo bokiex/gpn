@@ -5,12 +5,24 @@ switch (state)
         hsp = 0;
         vsp = (min(7,vsp+grav));
         if (distance_to_object(obj_player) < 96 && distance_to_object(obj_player.x) > 3.5) state = e_state.chase;
+        run = 0;
     }
     break;
     
     case e_state.chase:
     {
         dir = sign(obj_player.x - x);
+        if dir > 0
+        {
+            direct = "right";
+            run = 1;
+        }
+        else if dir < 0
+        {
+            direct = "left";
+            run = 1;
+        }
+        
         hsp = dir * movespeed;
         vsp = (min(7,vsp+grav));
         if (distance_to_object(obj_player) > 128) state = e_state.idle;
