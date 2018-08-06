@@ -83,8 +83,11 @@
 - Added minibosses
 - Minibosses now drop the keys
 
+3.6
+- Introduced Lives into the game
+- Life pickup added that gives +1 life
+- Fixed mini boss's hp not decreasing
+
 //UPCOMING CHANGES
 - New Levels!
-- Introducing lives into the game
-- New Item that gives +1 life
 - Lighting

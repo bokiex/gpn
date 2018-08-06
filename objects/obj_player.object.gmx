@@ -55,11 +55,35 @@ grappled = false;
 
 depth = -10;
 
+sprite_active = true
 //Inventory
-//Inventory
+life = 3;
 hpot_qty = 0;
 goldkey = false;
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>sprite_active = true
 </string>
           </argument>
         </arguments>
@@ -175,6 +199,15 @@ if (key_potion == 1) {
     }
 }
 
+//Lives
+if (hp &lt; 0) {
+    life -= 1
+    hp = 100
+    sprite_active = false
+    sprite_index = spr_player_lifelost
+    alarm[0] = room_speed * 1
+}
+
 // Wall jump
 if (onwall != 0) &amp;&amp; (!onground) &amp;&amp; (key_jump) // check whether player is off wall and ground with key jump pressed
 {
@@ -277,30 +310,31 @@ x += hsp;
 y += vsp;
 
 //Animations
+if (sprite_active) {
+    if (key_jump){
+        sprite_index = spr_playerjump;
+        image_speed = 0.1;
+    }
 
-if (key_jump){
-sprite_index = spr_playerjump;
-image_speed = 0.1;
+    else if (dir = "right" &amp;&amp; move = 1) {
+        sprite_index = spr_playerwalkright;
+        image_speed = 0.6;
+    }
+    else if (dir = "left" &amp;&amp; move = -1) {
+        sprite_index = spr_playerwalkleft;
+        image_speed = 0.6;
+    }
+
+    else if (dir = "right" &amp;&amp; move = 0) {
+        sprite_index = spr_playerright;
+    }
+
+    else if (dir = "left" &amp;&amp; move = 0) {
+        sprite_index = spr_playerleft;
+    }
 }
 
-else if (dir = "right" &amp;&amp; move = 1) {
-sprite_index = spr_playerwalkright;
-image_speed = 0.6;
-}
-else if (dir = "left" &amp;&amp; move = -1) {
-sprite_index = spr_playerwalkleft;
-image_speed = 0.6;
-}
-
-else if (dir = "right" &amp;&amp; move = 0) {
-sprite_index = spr_playerright;
-}
-
-else if (dir = "left" &amp;&amp; move = 0) {
-sprite_index = spr_playerleft;
-}
-
-if (hp &lt; 0)
+if (life &lt; 0)
 {
     scr_death();
 }
@@ -431,13 +465,20 @@ if !instance_exists(obj_grapple) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(spr_hpotion, 0, 13, 108)
+            <string>draw_sprite(spr_hpotion, 0, 13, 120)
 
 var i = hpot_qty
-draw_text(23, 105, "x " + string(i))
+draw_text(23, 120, "x " + string(i))
+
+var l = 0
+
+repeat(life) {
+    draw_sprite(spr_lifepot, 0, 13+l, 98)
+    l += 20
+}
 
 if (goldkey) {
-    draw_sprite(spr_goldkey, 0, 65, 108)    
+    draw_sprite(spr_goldkey, 0, 65, 120)    
 }
 </string>
           </argument>

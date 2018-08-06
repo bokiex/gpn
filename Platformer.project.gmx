@@ -44,6 +44,8 @@
     <sprite>sprites\spr_shuriken</sprite>
     <sprite>sprites\spr_miniboss_tp</sprite>
     <sprite>sprites\spr_naruto</sprite>
+    <sprite>sprites\spr_lifepot</sprite>
+    <sprite>sprites\spr_player_lifelost</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkr_trees</background>
@@ -74,6 +76,7 @@
       <object>objects\obj_chest</object>
       <object>objects\obj_hpotion</object>
       <object>objects\obj_goldkey</object>
+      <object>objects\obj_lifepot</object>
     </objects>
     <objects name="Blocks">
       <object>objects\obj_grappleblock</object>
@@ -103,14 +106,14 @@
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_chest</room>
+    <room>rooms\rm_tutorial1</room>
+    <room>rooms\rm_level1_2</room>
     <rooms name="tests">
-      <room>rooms\rm_chest</room>
       <room>rooms\rm_testchamber</room>
       <room>rooms\rm_platformer</room>
     </rooms>
-    <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_level1_1</room>
-    <room>rooms\rm_level1_2</room>
     <room>rooms\rm_tutorial2</room>
     <room>rooms\rm_bossroom</room>
   </rooms>
