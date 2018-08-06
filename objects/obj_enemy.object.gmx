@@ -91,7 +91,7 @@ if (bullet)
         instance_destroy();
     }
     hp = hp - 25; 
-    if hp = 0 {
+    if hp &lt;= 0 {
         //instance_destroy();
         instance_change(obj_enemydead, true); //Change the instance
         score += 100;

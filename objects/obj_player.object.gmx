@@ -136,7 +136,7 @@ else
 }
 if (enemycollision)
 {
-    hp = hp - 10;
+    hp = hp - 1;
 }
 
 if (spikecollision)
@@ -146,7 +146,7 @@ if (spikecollision)
 
 if (ghostcollision)
 {
-    hp = hp -5;
+    hp = hp - 1;
 }
 
 // Calc current status
@@ -320,6 +320,8 @@ sprite_index = spr_playerleft;
 
 if (hp &lt; 0)
 {
+    score -= 100;
+    audio_stop_sound(snd_explore);
     scr_death();
 }
 </string>

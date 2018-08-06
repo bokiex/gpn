@@ -5,7 +5,11 @@
   </Configs>
   <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_shoot</sound>
+    <sound>sound\snd_jump</sound>
+    <sound>sound\snd_explore</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_playerright</sprite>
     <sprite>sprites\spr_playerleft</sprite>
@@ -64,6 +68,7 @@
     <font>fonts\fnt_game</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_backgroundmusic</object>
     <object>objects\obj_torch</object>
     <objects name="Characters">
       <object>objects\obj_player</object>
@@ -109,7 +114,7 @@
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_testchamber</room>
+    <room>rooms\rm_leveldark</room>
     <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_level1_1</room>
     <room>rooms\rm_level1_2</room>
@@ -118,6 +123,7 @@
     <rooms name="tests">
       <room>rooms\rm_chest</room>
       <room>rooms\rm_platformer</room>
+      <room>rooms\rm_testchamber</room>
     </rooms>
   </rooms>
   <help>

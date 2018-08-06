@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>active = false;
 grav = 0.5;
+depth = -1000;
 
 </string>
           </argument>
