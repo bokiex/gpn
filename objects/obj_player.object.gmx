@@ -306,6 +306,16 @@ if (instance_exists(obj_golddoor))
     }    
 }
 
+//Thrower Collision
+if (instance_exists(obj_thrower)) {
+    if (place_meeting(x+hsp,y,obj_thrower)) {
+        hsp = 0;
+    }
+    if (place_meeting(x,y+vsp,obj_thrower)) {
+        vsp = 0;  
+    }
+}
+
 x += hsp;
 y += vsp;
 

@@ -7,50 +7,63 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_playerright</sprite>
-    <sprite>sprites\spr_playerleft</sprite>
-    <sprite>sprites\spr_grapplehook</sprite>
-    <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_playerjump</sprite>
-    <sprite>sprites\spr_playerwalkright</sprite>
-    <sprite>sprites\spr_playerwalkleft</sprite>
-    <sprite>sprites\spr_grapple</sprite>
-    <sprite>sprites\spr_gun</sprite>
-    <sprite>sprites\spr_bullet</sprite>
-    <sprite>sprites\spr_hitmark</sprite>
-    <sprite>sprites\spr_enemyidle</sprite>
-    <sprite>sprites\spr_enemydead</sprite>
+    <sprites name="Bosses">
+      <sprite>sprites\spr_boss</sprite>
+      <sprite>sprites\spr_miniboss</sprite>
+      <sprite>sprites\spr_miniboss_damaged</sprite>
+      <sprite>sprites\spr_miniboss_tp</sprite>
+      <sprite>sprites\spr_naruto</sprite>
+      <sprite>sprites\spr_shuriken</sprite>
+    </sprites>
+    <sprites name="Enemies">
+      <sprite>sprites\spr_enemydead</sprite>
+      <sprite>sprites\spr_enemyidle</sprite>
+      <sprite>sprites\spr_ghost</sprite>
+    </sprites>
+    <sprites name="Pickups">
+      <sprite>sprites\spr_antigrav</sprite>
+      <sprite>sprites\spr_goldchest</sprite>
+      <sprite>sprites\spr_goldkey</sprite>
+      <sprite>sprites\spr_hpotion</sprite>
+      <sprite>sprites\spr_lifepot</sprite>
+      <sprite>sprites\spr_opened_goldchest</sprite>
+    </sprites>
+    <sprites name="Player">
+      <sprite>sprites\spr_bullet</sprite>
+      <sprite>sprites\spr_grapple</sprite>
+      <sprite>sprites\spr_grapplehook</sprite>
+      <sprite>sprites\spr_gun</sprite>
+      <sprite>sprites\spr_player_lifelost</sprite>
+      <sprite>sprites\spr_playerjump</sprite>
+      <sprite>sprites\spr_playerleft</sprite>
+      <sprite>sprites\spr_playerright</sprite>
+      <sprite>sprites\spr_playerwalkleft</sprite>
+      <sprite>sprites\spr_playerwalkright</sprite>
+    </sprites>
+    <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_cursor</sprite>
     <sprite>sprites\spr_door</sprite>
-    <sprite>sprites\spr_boss</sprite>
-    <sprite>sprites\spr_spikes</sprite>
-    <sprite>sprites\spr_antigrav</sprite>
-    <sprite>sprites\spr_ghost</sprite>
-    <sprite>sprites\spr_warp</sprite>
-    <sprite>sprites\spr_save</sprite>
-    <sprite>sprites\spr_goldchest</sprite>
-    <sprite>sprites\spr_goldkey</sprite>
-    <sprite>sprites\spr_opened_goldchest</sprite>
-    <sprite>sprites\spr_hpotion</sprite>
-    <sprite>sprites\spr_arrow</sprite>
-    <sprite>sprites\spr_pressureplate</sprite>
-    <sprite>sprites\spr_darttrapidle</sprite>
-    <sprite>sprites\spr_darttrapactive</sprite>
-    <sprite>sprites\spr_dart</sprite>
     <sprite>sprites\spr_golddoor</sprite>
     <sprite>sprites\spr_golddoor_opened</sprite>
-    <sprite>sprites\spr_miniboss</sprite>
-    <sprite>sprites\spr_miniboss_damaged</sprite>
-    <sprite>sprites\spr_shuriken</sprite>
-    <sprite>sprites\spr_miniboss_tp</sprite>
-    <sprite>sprites\spr_naruto</sprite>
-    <sprite>sprites\spr_lifepot</sprite>
-    <sprite>sprites\spr_player_lifelost</sprite>
+    <sprite>sprites\spr_hitmark</sprite>
+    <sprite>sprites\spr_save</sprite>
+    <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_warp</sprite>
+    <sprites name="Traps">
+      <sprite>sprites\spr_dart</sprite>
+      <sprite>sprites\spr_pressureplate</sprite>
+      <sprite>sprites\spr_darttrapidle</sprite>
+      <sprite>sprites\spr_darttrapactive</sprite>
+      <sprite>sprites\spr_spikes</sprite>
+      <sprite>sprites\spr_flame</sprite>
+      <sprite>sprites\spr_thrower</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bkr_trees</background>
     <background>background\tset_ground</background>
     <background>background\bkr_world</background>
+    <background>background\tset_blocks</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -98,6 +111,8 @@
       <object>objects\obj_darttrapactive</object>
       <object>objects\obj_spikes</object>
       <object>objects\obj_pressureplate</object>
+      <object>objects\obj_flame</object>
+      <object>objects\obj_thrower</object>
     </objects>
     <objects name="Doors">
       <object>objects\obj_golddoor</object>
