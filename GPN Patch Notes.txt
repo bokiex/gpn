@@ -88,6 +88,10 @@
 - Life pickup added that gives +1 life
 - Fixed mini boss's hp not decreasing
 
+3.7
+- Flamethrower added as new trap
+- Falling bricks added as new trap
+
 //UPCOMING CHANGES
 - New Levels!
 - Lighting
