@@ -66,11 +66,12 @@ else {instance_destroy()}
           <argument>
             <kind>1</kind>
             <string>bob = instance_create(x,y,obj_bullet);
-bob.speed = 15;
+bob.speed = 10;
 bob.direction = image_angle;
 bob.image_angle = image_angle;
 bob.image_index = 0;
 
+audio_play_sound(snd_shoot,0,0);
 </string>
           </argument>
         </arguments>

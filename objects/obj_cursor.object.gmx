@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = -10;
+            <string>depth = -1000;
 </string>
           </argument>
         </arguments>

@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = -10;
+            <string>hspeed = -30;
+depth = -1000;
 </string>
           </argument>
         </arguments>

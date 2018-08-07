@@ -5,7 +5,11 @@
   </Configs>
   <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_shoot</sound>
+    <sound>sound\snd_jump</sound>
+    <sound>sound\snd_explore</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Bosses">
       <sprite>sprites\spr_boss</sprite>
@@ -17,7 +21,10 @@
     </sprites>
     <sprites name="Enemies">
       <sprite>sprites\spr_enemydead</sprite>
-      <sprite>sprites\spr_enemyidle</sprite>
+      <sprite>sprites\spr_enemyleft</sprite>
+      <sprite>sprites\spr_enemywalkright</sprite>
+      <sprite>sprites\spr_enemywalkleft</sprite>
+      <sprite>sprites\spr_enemyright</sprite>
       <sprite>sprites\spr_ghost</sprite>
     </sprites>
     <sprites name="Pickups">
@@ -60,28 +67,37 @@
       <sprite>sprites\spr_bricks</sprite>
       <sprite>sprites\spr_brick_spawner</sprite>
     </sprites>
+    <sprite>sprites\spr_torch</sprite>
   </sprites>
   <backgrounds name="background">
+    <background>background\bkr_cavefront</background>
+    <background>background\bkr_caveback</background>
+    <background>background\tset_dungeon</background>
     <background>background\bkr_trees</background>
     <background>background\tset_ground</background>
     <background>background\bkr_world</background>
     <background>background\tset_blocks</background>
+    <background>background\tset_bricks</background>
+    <background>background\bkr_menu</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_death.gml</script>
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_enemy_chase.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_game</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_antigrav</object>
+    <object>objects\obj_backgroundmusic</object>
+    <object>objects\obj_torch</object>
     <objects name="Characters">
       <object>objects\obj_player</object>
       <object>objects\obj_enemy</object>
       <object>objects\obj_ghost</object>
       <object>objects\obj_miniboss</object>
+      <object>objects\obj_enemydead</object>
     </objects>
     <objects name="Weapons">
       <object>objects\obj_grapple</object>
@@ -103,6 +119,8 @@
       <object>objects\obj_warp</object>
       <object>objects\obj_cursor</object>
       <object>objects\obj_controller</object>
+      <object>objects\obj_lightingsystem</object>
+      <object>objects\obj_backgroundcontrol</object>
     </objects>
     <objects name="Projectiles">
       <object>objects\obj_bullet</object>
@@ -125,16 +143,20 @@
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_chest</room>
     <room>rooms\rm_tutorial1</room>
-    <room>rooms\rm_level1_2</room>
+    <room>rooms\rm_leveldark</room>
+    <room>rooms\rm_chest</room>
     <rooms name="tests">
       <room>rooms\rm_testchamber</room>
       <room>rooms\rm_platformer</room>
     </rooms>
-    <room>rooms\rm_level1_1</room>
     <room>rooms\rm_tutorial2</room>
     <room>rooms\rm_bossroom</room>
+    <rooms name="level1">
+      <room>rooms\rm_level1_1</room>
+      <room>rooms\rm_level1_2</room>
+      <room>rooms\rm_level1_3</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

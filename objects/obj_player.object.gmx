@@ -3,7 +3,7 @@
   <spriteName>spr_playerright</spriteName>
   <solid>-1</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-10</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -52,10 +52,10 @@ onground = false;
 onwall = false;
 
 grappled = false;
-
 depth = -10;
-
 sprite_active = true
+
+
 //Inventory
 life = 3;
 hpot_qty = 0;
@@ -66,7 +66,7 @@ goldkey = false;
         </arguments>
       </action>
     </event>
-    <event eventtype="2" enumb="0">
+    <event eventtype="3" enumb="2">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -83,7 +83,17 @@ goldkey = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_active = true
+            <string>
+            sprite_active = true
+            ///Lighting
+if (instance_exists(obj_lightingsystem) == 1){
+    size = 300;
+    draw_set_blend_mode(bm_subtract);
+    surface_set_target(light);
+    draw_ellipse_color(x - size / 2 - view_xview,y-size/2-view_yview,x+size/2-view_xview,y+size/2-view_yview,c_white,c_black,false);
+    surface_reset_target();
+    draw_set_blend_mode(bm_normal);
+}
 </string>
           </argument>
         </arguments>
@@ -131,7 +141,7 @@ else
 }
 if (enemycollision)
 {
-    hp = hp - 10;
+    hp = hp - 1;
 }
 
 if (spikecollision)
@@ -141,7 +151,7 @@ if (spikecollision)
 
 if (ghostcollision)
 {
-    hp = hp -5;
+    hp = hp - 1;
 }
 
 // Calc current status
@@ -206,6 +216,7 @@ if (hp &lt; 0) {
     sprite_active = false
     sprite_index = spr_player_lifelost
     alarm[0] = room_speed * 1
+    scr_death()
 }
 
 // Wall jump
@@ -231,7 +242,7 @@ if (grappled)
 {
     if (speed &gt; 0)
     {
-        speed -= 0.3;
+        speed -= 0.2;
     }
     else
     {
@@ -346,7 +357,9 @@ if (sprite_active) {
 
 if (life &lt; 0)
 {
-    scr_death();
+    score -= 100;
+    audio_stop_sound(snd_explore);
+    game_restart();
 }
 </string>
           </argument>
@@ -451,8 +464,18 @@ if !instance_exists(obj_grapple) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_death();
-
+            <string>if (life &gt; 1) {
+    life -= 1
+    hp = 100
+    sprite_active = false
+    sprite_index = spr_player_lifelost
+    alarm[0] = room_speed * 1
+    scr_death()
+}
+else
+{
+    game_restart()
+}
 </string>
           </argument>
         </arguments>
