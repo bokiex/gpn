@@ -79,9 +79,9 @@ vspeed = 3
     with obj_bullet {
         instance_destroy();
     }
-    instance_create(obj_chest.x+random_range(-100,50), obj_chest.y-50, obj_hpotion)
-    instance_create(obj_chest.x+random_range(-100,50), obj_chest.y-50, obj_lifepot)
-    instance_create(obj_chest.x+random_range(-100,50), obj_chest.y-50, obj_goldkey)
+    instance_create(obj_chest.x+random_range(-50,50), obj_chest.y-50, obj_hpotion)
+    instance_create(obj_chest.x+random_range(-50,50), obj_chest.y-50, obj_lifepot)
+    instance_create(obj_chest.x+random_range(-50,50), obj_chest.y-50, obj_goldkey)
     opened = true
 }
 

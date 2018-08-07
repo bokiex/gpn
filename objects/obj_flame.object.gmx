@@ -25,15 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spin = false
+            <string>depth = 50
+spin = false
 
 if (place_meeting(x-32,y,obj_wall)) {
     //Aim at right
     image_angle = 180
-}
-
-else if (!place_meeting(x-32,y,obj_wall) &amp;&amp; !place_meeting(x+32,y,obj_wall)) {
-    spin = true
 }
 </string>
           </argument>
