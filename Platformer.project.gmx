@@ -148,19 +148,19 @@
     <room>rooms\rm_initialise</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_idk</room>
-    <room>rooms\rm_chest</room>
     <room>rooms\rm_tutorial1</room>
+    <room>rooms\rm_tutorial2</room>
     <rooms name="level1">
       <room>rooms\rm_level1_1</room>
       <room>rooms\rm_level1_2</room>
       <room>rooms\rm_level1_3</room>
+      <room>rooms\rm_chest</room>
     </rooms>
     <room>rooms\rm_leveldark</room>
     <rooms name="tests">
       <room>rooms\rm_testchamber</room>
       <room>rooms\rm_platformer</room>
     </rooms>
-    <room>rooms\rm_tutorial2</room>
     <room>rooms\rm_bossroom</room>
   </rooms>
   <help>
