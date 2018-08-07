@@ -394,7 +394,6 @@ if (sprite_active) {
 
 if (life &lt;= 0)
 {
-    audio_stop_sound(snd_explore);
     score -= 500;
     game_restart();
 }

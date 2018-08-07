@@ -49,11 +49,9 @@
             <kind>1</kind>
             <string>///Player Info
 draw_set_color(c_white);
+draw_set_halign(fa_left);
 if (instance_exists(obj_player) == 1){
 draw_text(view_xview[0]+10, view_yview[0]+10, "Score: " + string(score));
-//draw_text(view_xview[0]+10, view_yview[0]+30, "state: " + string (obj_player.state));
-//draw_text(10, 30, "jumping: " + string (obj_player.jumping));
-//draw_text(10, 50, "falling: " + string (obj_player.falling));
 draw_text(view_xview[0]+10, view_yview[0]+30, "hsp: " + string (obj_player.hsp));
 draw_text(view_xview[0]+10, view_yview[0]+50, "vsp: " + string (obj_player.vsp));
 draw_text(view_xview[0]+10, view_yview[0]+70, "dir: " + string (obj_player.dir));
