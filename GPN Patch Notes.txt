@@ -87,13 +87,17 @@
 - Introduced Lives into the game
 - Life pickup added that gives +1 life
 - Fixed mini boss's hp not decreasing
+- Levels now have checkpoints
 
 3.7
 - Flamethrower added as new trap
 - Falling bricks added as new trap
+- Added BGM & Gun sound effect
 
 3.8
 - Flamethrower now comes in 2 forms
+- Added new level
+- Flamethrower mask changed to rectangle (previously circle)
 
 //UPCOMING CHANGES
 - New Levels!
