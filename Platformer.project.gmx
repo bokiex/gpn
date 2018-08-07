@@ -157,6 +157,7 @@
       <room>rooms\rm_level1_2</room>
       <room>rooms\rm_level1_3</room>
       <room>rooms\rm_chest</room>
+      <room>rooms\rm_level1_4</room>
     </rooms>
     <rooms name="tests">
       <room>rooms\rm_testchamber</room>
