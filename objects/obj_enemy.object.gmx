@@ -86,13 +86,23 @@ bullet = instance_place(floor(x), floor(y), obj_bullet);
 if (bullet)
 {
     with (bullet){   
-        //bullet.sprite_index = spr_hitmark;
-        //bullet.image_speed = 1;
         instance_destroy();
     }
     hp = hp - 25; 
     if hp &lt;= 0 {
         //instance_destroy();
+        instance_change(obj_enemydead, true); //Change the instance
+        score += 100;
+    }
+}
+dart = instance_place(floor(x), floor(y), obj_dart);
+if (dart)
+{
+    with (dart){   
+        instance_destroy();
+    }
+    hp = hp - 30; 
+    if hp &lt;= 0 {
         instance_change(obj_enemydead, true); //Change the instance
         score += 100;
     }

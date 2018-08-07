@@ -52,7 +52,6 @@ onground = false;
 onwall = false;
 
 grappled = false;
-depth = -10;
 sprite_active = true
 
 
@@ -112,7 +111,7 @@ bounce = 0
             sprite_active = true
             ///Lighting
 if (instance_exists(obj_lightingsystem) == 1){
-    size = 300;
+    size = 400;
     draw_set_blend_mode(bm_subtract);
     surface_set_target(light);
     draw_ellipse_color(x - size / 2 - view_xview,y-size/2-view_yview,x+size/2-view_xview,y+size/2-view_yview,c_white,c_black,false);
@@ -393,10 +392,10 @@ if (sprite_active) {
     }
 }
 
-if (life &lt; 0)
+if (life &lt;= 0)
 {
-    score -= 100;
     audio_stop_sound(snd_explore);
+    score -= 500;
     game_restart();
 }
 </string>
