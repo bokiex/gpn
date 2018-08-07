@@ -140,14 +140,15 @@
       <object>objects\obj_golddoor</object>
     </objects>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_leveldark</room>
+    <room>rooms\rm_tutorial1</room>
+    <room>rooms\rm_testchamber</room>
     <room>rooms\rm_chest</room>
     <rooms name="tests">
-      <room>rooms\rm_testchamber</room>
       <room>rooms\rm_platformer</room>
     </rooms>
     <room>rooms\rm_tutorial2</room>
@@ -156,6 +157,7 @@
       <room>rooms\rm_level1_1</room>
       <room>rooms\rm_level1_2</room>
       <room>rooms\rm_level1_3</room>
+      <room>rooms\rm_level1_4</room>
     </rooms>
   </rooms>
   <help>
