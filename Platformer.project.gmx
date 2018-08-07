@@ -52,11 +52,11 @@
     <sprite>sprites\spr_door</sprite>
     <sprite>sprites\spr_golddoor</sprite>
     <sprite>sprites\spr_golddoor_opened</sprite>
-    <sprite>sprites\spr_hitmark</sprite>
     <sprite>sprites\spr_save</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_warp</sprite>
     <sprite>sprites\spr_torch</sprite>
+    <sprite>sprites\spr_signboard</sprite>
     <sprites name="Traps">
       <sprite>sprites\spr_dart</sprite>
       <sprite>sprites\spr_pressureplate</sprite>
@@ -95,6 +95,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_backgroundmusic</object>
+    <object>objects\obj_signboard</object>
     <object>objects\obj_torch</object>
     <objects name="Characters">
       <object>objects\obj_player</object>

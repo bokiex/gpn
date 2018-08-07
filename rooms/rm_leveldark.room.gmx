@@ -301,6 +301,8 @@
     <instance objName="obj_wall" x="32" y="176" name="inst_A4068B1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="1296" y="1088" name="inst_63C19474" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_spikes" x="1440" y="1088" name="inst_6910D2D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_flame" x="992" y="304" name="inst_20955430" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_signboard" x="672" y="304" name="inst_D8D65BA5" locked="0" code="text = &quot;Wow where is this place...&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tset_bricks" x="0" y="320" w="64" h="64" xo="0" yo="0" id="10001238" name="inst_709AB009" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
