@@ -71,16 +71,9 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bkr_cavefront</background>
-    <background>background\bkr_caveback</background>
-    <background>background\tset_dungeon</background>
-    <background>background\bkr_trees</background>
-    <background>background\tset_ground</background>
-    <background>background\bkr_world</background>
-    <background>background\tset_blocks</background>
-    <background>background\tset_bricks</background>
-    <background>background\bkr_menu</background>
   </backgrounds>
   <paths name="paths"/>
+<<<<<<< HEAD
   <scripts name="scripts">
     <script>scripts\scr_death.gml</script>
     <script>scripts\scr_menu.gml</script>
@@ -162,6 +155,12 @@
     <room>rooms\rm_tutorial2</room>
     <room>rooms\rm_bossroom</room>
   </rooms>
+=======
+  <scripts name="scripts"/>
+  <fonts name="fonts"/>
+  <objects name="objects"/>
+  <timelines name="timelines"/>
+>>>>>>> ef0b71d6fcbc2b093c07b9ea9b90f1c65a0edfdb
   <help>
     <rtf>help.rtf</rtf>
   </help>
