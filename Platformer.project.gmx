@@ -163,7 +163,6 @@
     <room>rooms\rm_tutorial2</room>
     <room>rooms\rm_bossroom</room>
   </rooms>
-  <timelines name="timelines"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>

@@ -32,7 +32,7 @@ if (place_meeting(x-32,y,obj_wall)) {
     image_angle = 180
 }
 
-else if (place_free(x-32,y) &amp;&amp; place_free(x+32,y)) {
+else if (!place_meeting(x-32,y,obj_wall) &amp;&amp; !place_meeting(x+32,y,obj_wall)) {
     spin = true
 }
 </string>

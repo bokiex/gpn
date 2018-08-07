@@ -92,6 +92,9 @@
 - Flamethrower added as new trap
 - Falling bricks added as new trap
 
+3.8
+- Flamethrower now comes in 2 forms
+
 //UPCOMING CHANGES
 - New Levels!
 - Lighting
