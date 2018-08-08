@@ -67,7 +67,11 @@
       <sprite>sprites\spr_thrower</sprite>
       <sprite>sprites\spr_bricks</sprite>
       <sprite>sprites\spr_brick_spawner</sprite>
+      <sprite>sprites\spr_spikes_right</sprite>
+      <sprite>sprites\spr_spikes_left</sprite>
+      <sprite>sprites\spr_spikes_ground</sprite>
     </sprites>
+    <sprite>sprites\spr_signpost</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkr_cavefront</background>
@@ -86,12 +90,14 @@
     <script>scripts\scr_death.gml</script>
     <script>scripts\scr_menu.gml</script>
     <script>scripts\scr_enemy_chase.gml</script>
+    <script>scripts\scr_text.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fnt_game</font>
+    <font>fonts\fnt_textbox</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_backgroundmusic</object>
@@ -120,6 +126,7 @@
       <object>objects\obj_wall</object>
     </objects>
     <objects name="Controller">
+      <object>objects\obj_text</object>
       <object>objects\obj_start</object>
       <object>objects\obj_save</object>
       <object>objects\obj_warp</object>
@@ -135,20 +142,25 @@
     </objects>
     <objects name="Traps">
       <object>objects\obj_darttrapactive</object>
-      <object>objects\obj_spikes</object>
+      <object>objects\obj_spikes_parent</object>
       <object>objects\obj_pressureplate</object>
       <object>objects\obj_flame</object>
       <object>objects\obj_thrower</object>
       <object>objects\obj_bricks</object>
       <object>objects\obj_brick_spawner</object>
+      <object>objects\obj_spikes_left</object>
+      <object>objects\obj_spikes_right</object>
+      <object>objects\obj_spikes_ground</object>
     </objects>
     <objects name="Doors">
       <object>objects\obj_golddoor</object>
+      <object>objects\obj_signpost</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_idk</room>
     <room>rooms\rm_leveldark</room>
     <room>rooms\rm_chest</room>
@@ -158,7 +170,6 @@
       <room>rooms\rm_level1_3</room>
       <room>rooms\rm_level1_4</room>
     </rooms>
-    <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_tutorial2</room>
     <rooms name="tests">
       <room>rooms\rm_testchamber</room>

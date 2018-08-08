@@ -165,7 +165,7 @@ if (bounce == 1)
     bounce = 0
 }
 enemycollision = instance_place(floor(x), floor(y), obj_enemy);
-spikecollision = instance_place(floor(x), floor(y), obj_spikes);
+spikecollision = instance_place(floor(x), floor(y), obj_spikes_parent);
 ghostcollision = instance_place(floor(x), floor(y), obj_ghost);
 
 if (key_next)

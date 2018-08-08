@@ -93,13 +93,13 @@
     <instance objName="obj_wall" x="1888" y="224" name="inst_A6C0458D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1952" y="224" name="inst_312F2B31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1824" y="224" name="inst_5D437BCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="1184" y="544" name="inst_EAADDE06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="464" y="640" name="inst_767E6356" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="832" y="928" name="inst_7F28C7D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="obj_spikes" x="992" y="928" name="inst_6021DBA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="obj_spikes" x="832" y="928" name="inst_45771247" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="obj_spikes" x="832" y="928" name="inst_7FB6A744" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="obj_spikes" x="1184" y="576" name="inst_25BE07DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes_parent" x="1184" y="544" name="inst_EAADDE06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes_parent" x="464" y="640" name="inst_767E6356" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes_parent" x="832" y="928" name="inst_7F28C7D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes_parent" x="992" y="928" name="inst_6021DBA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes_parent" x="832" y="928" name="inst_45771247" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes_parent" x="832" y="928" name="inst_7FB6A744" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes_parent" x="1184" y="576" name="inst_25BE07DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hpotion" x="920" y="928" name="inst_B025DE11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_chest" x="144" y="560" name="inst_49EDE8AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="608" y="544" name="inst_F8158FDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -266,10 +266,10 @@
     <instance objName="obj_pressureplate" x="1360" y="1404" name="inst_A2DB22F4" locked="0" code="plateid = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_darttrapactive" x="388" y="944" name="inst_8F0C95EB" locked="0" code="dartid = 3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pressureplate" x="84" y="972" name="inst_D94B4484" locked="0" code="plateid = 3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="784" y="1392" name="inst_33E0C909" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="obj_spikes" x="1176" y="1392" name="inst_BE31DA02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="obj_spikes" x="1408" y="540" name="inst_201AEDC0" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="1408" y="576" name="inst_A10380D6" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes_parent" x="784" y="1392" name="inst_33E0C909" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes_parent" x="1176" y="1392" name="inst_BE31DA02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes_parent" x="1408" y="540" name="inst_201AEDC0" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes_parent" x="1408" y="576" name="inst_A10380D6" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1568" y="-16" name="inst_9EF548D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1504" y="-16" name="inst_D906C86A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1440" y="-16" name="inst_5BA761AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -298,8 +298,8 @@
     <instance objName="obj_wall" x="32" y="48" name="inst_09BF9394" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="112" name="inst_16B6DE4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="224" name="inst_A4068B1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="1296" y="1088" name="inst_63C19474" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="obj_spikes" x="1440" y="1088" name="inst_6910D2D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes_parent" x="1296" y="1088" name="inst_63C19474" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes_parent" x="1440" y="1088" name="inst_6910D2D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_flame" x="992" y="304" name="inst_20955430" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_signboard" x="672" y="304" name="inst_D8D65BA5" locked="0" code="text = &quot;Wow where is this place...&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="416" y="544" name="inst_1484FE5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

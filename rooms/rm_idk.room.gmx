@@ -165,11 +165,11 @@
     <instance objName="obj_wall" x="1472" y="32" name="inst_B831A247" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_thrower" x="480" y="896" name="inst_B702798E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grappleblock" x="608" y="608" name="inst_D3EC346D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="672" y="1424" name="inst_13CC514D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="obj_spikes" x="496" y="1424" name="inst_6E425995" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="obj_spikes" x="528" y="1424" name="inst_75BBD0C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="obj_spikes" x="560" y="1424" name="inst_B12EBB66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="obj_spikes" x="640" y="1424" name="inst_B7B0212E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes_parent" x="672" y="1424" name="inst_13CC514D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes_parent" x="496" y="1424" name="inst_6E425995" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes_parent" x="528" y="1424" name="inst_75BBD0C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes_parent" x="560" y="1424" name="inst_B12EBB66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes_parent" x="640" y="1424" name="inst_B7B0212E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="obj_wall" x="752" y="704" name="inst_4A4330BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="768" y="768" name="inst_0616AD13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="816" y="832" name="inst_8E0F69F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -200,7 +200,7 @@
     <instance objName="obj_wall" x="416" y="1280" name="inst_57EC24F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_thrower" x="688" y="1152" name="inst_D61A7028" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grappleblock" x="624" y="1120" name="inst_6A9884BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="704" y="1424" name="inst_0ED505CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes_parent" x="704" y="1424" name="inst_0ED505CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="obj_brick_spawner" x="384" y="1328" name="inst_3DCD064C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_brick_spawner" x="784" y="1328" name="inst_5696A2B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="352" y="1280" name="inst_C87C85EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
