@@ -181,21 +181,6 @@
     <instance objName="obj_wall" x="928" y="1184" name="inst_634E30AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="928" y="1120" name="inst_95C71DF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="928" y="1056" name="inst_B5F51D77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="928" y="576" name="inst_846F1585" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="896" y="576" name="inst_7172F730" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="864" y="576" name="inst_AECDA0BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="832" y="576" name="inst_9F07F99F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="800" y="576" name="inst_9A66A393" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="768" y="576" name="inst_09CB9DAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="736" y="576" name="inst_5464BDE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="704" y="576" name="inst_7760B185" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="672" y="576" name="inst_A0A969DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="640" y="576" name="inst_416424B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="608" y="576" name="inst_3806EF7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="576" y="576" name="inst_8F7628D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="544" y="576" name="inst_1D54AE2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="512" y="576" name="inst_29BCD65E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes_parent" x="480" y="576" name="inst_9801026D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="288" name="inst_A5806C34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="352" name="inst_354C54AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="416" name="inst_11E8D183" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -248,10 +233,17 @@
     <instance objName="obj_warp" x="0" y="704" name="inst_574F7FEC" locked="0" code="target_x = 1376;&#xA;target_y = 1344;&#xA;target_r = rm_level1_3&#xA;" scaleX="0.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_save" x="896" y="1344" name="inst_E3B8744C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_save" x="1024" y="288" name="inst_D81950B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_golddoor" x="1472" y="640" name="inst_C85A3821" locked="0" code="target_x = 32&#xA;target_y = 256&#xA;target_r = rm_level1_4&#xA;" scaleX="1.55555558204651" scaleY="2.53968262672424" colour="4294967295" rotation="0"/>
     <instance objName="obj_warp" x="1536" y="736" name="inst_410A5F8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warp" x="1472" y="704" name="inst_48E630FD" locked="0" code="target_x = 32&#xA;target_y = 256&#xA;target_r = rm_level1_4&#xA;" scaleX="0.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_golddoor" x="1440" y="768" name="inst_470C667A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes_ground" x="464" y="591" name="inst_42D667E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes_ground" x="529" y="591" name="inst_7F0633D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes_ground" x="591" y="594" name="inst_DC0895BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes_ground" x="656" y="593" name="inst_20C6358E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes_ground" x="721" y="593" name="inst_D3D25A09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes_ground" x="784" y="592" name="inst_E747C2B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes_ground" x="847" y="592" name="inst_532BE4AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes_ground" x="912" y="593" name="inst_7955856D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tset_blocks" x="864" y="1376" w="64" h="64" xo="0" yo="0" id="10001416" name="inst_BEAE0CA7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
