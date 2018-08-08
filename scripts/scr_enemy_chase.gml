@@ -4,7 +4,7 @@ switch (state)
     {
         hsp = 0;
         vsp = (min(7,vsp+grav));
-        if (distance_to_object(obj_player) < 96 && distance_to_object(obj_player.x) > 3.5) state = e_state.chase;
+        if (distance_to_object(obj_player) < 196 && distance_to_object(obj_player.x) > 3.5) state = e_state.chase;
         run = 0;
     }
     break;

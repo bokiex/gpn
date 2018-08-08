@@ -299,7 +299,7 @@
     <instance objName="obj_wall" x="1472" y="1280" name="inst_A0A4C648" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1472" y="1344" name="inst_EF3B1F6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1072" y="352" name="inst_0ABFABFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_golddoor" x="1072" y="416" name="inst_9DE10DE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_golddoor" x="1072" y="480" name="inst_9DE10DE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_brick_spawner" x="848" y="240" name="inst_AE771886" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_brick_spawner" x="832" y="32" name="inst_7ADD3161" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trap_chest" x="384" y="354" name="inst_0C7B18E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -316,7 +316,7 @@
     <instance objName="obj_wall" x="768" y="1344" name="inst_36166F72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="752" y="1408" name="inst_2FC096F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="832" y="448" name="inst_5005234F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warp" x="1424" y="1376" name="inst_7293E02A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warp" x="1424" y="1376" name="inst_7293E02A" locked="0" code="target_r = rm_chest&#xA;target_x = 128&#xA;target_y = 400&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1472" y="128" name="inst_A4EE504C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_save" x="1152" y="416" name="inst_27F48A84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hpotion" x="192" y="720" name="inst_654FFC20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -407,7 +407,6 @@
     <instance objName="obj_enemy" x="1008" y="256" name="inst_4B548C64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy" x="1072" y="288" name="inst_100511C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_brick_spawner" x="816" y="688" name="inst_627B90EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_backgroundmusic" x="128" y="32" name="inst_939C89F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="704" y="1088" name="inst_BAB9EA9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="128" y="704" name="inst_7399A815" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="928" y="224" name="inst_6375C789" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -465,7 +464,7 @@
     <instance objName="obj_wall" x="1328" y="160" name="inst_2DC5A86D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1456" y="144" name="inst_9917663F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1392" y="1328" name="inst_B5F20200" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_signboard" x="608" y="160" name="inst_A082FF9B" locked="0" code="text = &quot;Oh No! The ground must have been unstable. &#xA;Oh well, I have to get out of here...&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_signboard" x="635" y="175" name="inst_A082FF9B" locked="0" code="text = &quot;Oh No! The ground must have been unstable. &#xA;Oh well, I have to get out of here...&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tset_bricks" x="864" y="96" w="64" h="64" xo="0" yo="64" id="10002333" name="inst_C76E526D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

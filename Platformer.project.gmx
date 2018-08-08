@@ -67,7 +67,13 @@
       <sprite>sprites\spr_thrower</sprite>
       <sprite>sprites\spr_bricks</sprite>
       <sprite>sprites\spr_brick_spawner</sprite>
+      <sprite>sprites\spr_spikes_left</sprite>
+      <sprite>sprites\spr_spikes_right</sprite>
+      <sprite>sprites\spr_spikes_ground</sprite>
     </sprites>
+    <sprite>sprites\spr_signpost</sprite>
+    <sprite>sprites\spr_boss_chest</sprite>
+    <sprite>sprites\spr_lifepot_spawner</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkr_caveback</background>
@@ -86,18 +92,23 @@
     <script>scripts\scr_death.gml</script>
     <script>scripts\scr_menu.gml</script>
     <script>scripts\scr_enemy_chase.gml</script>
+    <script>scripts\scr_text.gml</script>
+    <script>scripts\scr_titletext.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fnt_game</font>
+    <font>fonts\fnt_textbox</font>
+    <font>fonts\fnt_text</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_backgroundmusic</object>
     <object>objects\obj_signboard</object>
     <object>objects\obj_torch</object>
     <objects name="Characters">
+      <object>objects\obj_boss_chest</object>
       <object>objects\obj_enemy</object>
       <object>objects\obj_enemydead</object>
       <object>objects\obj_ghost</object>
@@ -114,6 +125,7 @@
       <object>objects\obj_hpotion</object>
       <object>objects\obj_lifepot</object>
       <object>objects\obj_trap_chest</object>
+      <object>objects\obj_boss_spawn</object>
     </objects>
     <objects name="Blocks">
       <object>objects\obj_grappleblock</object>
@@ -127,6 +139,7 @@
       <object>objects\obj_save</object>
       <object>objects\obj_start</object>
       <object>objects\obj_warp</object>
+      <object>objects\obj_victory</object>
     </objects>
     <objects name="Projectiles">
       <object>objects\obj_bossbullet</object>
@@ -141,16 +154,24 @@
       <object>objects\obj_pressureplate</object>
       <object>objects\obj_spikes</object>
       <object>objects\obj_thrower</object>
+      <object>objects\obj_spikes_left</object>
+      <object>objects\obj_spikes_right</object>
+      <object>objects\obj_spikes_ground</object>
+      <object>objects\obj_boss_spikes</object>
     </objects>
     <objects name="Doors">
       <object>objects\obj_golddoor</object>
     </objects>
+    <object>objects\obj_text</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_idk</room>
+    <room>rooms\rm_tutorial1</room>
+    <room>rooms\rm_bossroom</room>
+    <room>rooms\rm_victory</room>
     <room>rooms\rm_leveldark</room>
+    <room>rooms\rm_idk</room>
     <room>rooms\rm_chest</room>
     <rooms name="level1">
       <room>rooms\rm_level1_1</room>
@@ -158,13 +179,11 @@
       <room>rooms\rm_level1_3</room>
       <room>rooms\rm_level1_4</room>
     </rooms>
-    <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_tutorial2</room>
     <rooms name="tests">
       <room>rooms\rm_testchamber</room>
       <room>rooms\rm_platformer</room>
     </rooms>
-    <room>rooms\rm_bossroom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

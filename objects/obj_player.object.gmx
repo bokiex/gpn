@@ -31,14 +31,14 @@ dir = "right";
 state = "standing";
 aim = point_direction(x, y, mouse_x, mouse_y);
 grav = 0.3;
-grav_wall = 0.2;
+grav_wall = 0.3;
 
 hsp = 0;
 movespeed = 4; 
 wallmovespeed = 5;
 
 vsp = 0;
-fallspeed = 10;
+fallspeed = 7;
 jumpspeed = -8;
 walljumpspeed = -6.5;
 wallfallspeed = 1;
@@ -60,8 +60,9 @@ life = 3;
 hpot_qty = 0;
 goldkey = false;
 
-// Knockback
-bounce = 0
+// teleport?
+teleporto = false
+telecount = 0
 </string>
           </argument>
         </arguments>
@@ -151,19 +152,6 @@ key_next = keyboard_check(ord('T'));
 aim = point_direction(x, y, mouse_x, mouse_y);
 
 //Enemy Collisions
-if place_meeting(x, y, obj_enemy)
-{
-    var enemy
-    enemy = instance_nearest(x, y, obj_enemy);
-    direction = point_direction(x, y, enemy.x, enemy.y) + 185;
-    bounce = 1
-}
-if (bounce == 1)
-{
-    alarm[1] = 5
-    speed = 15
-    bounce = 0
-}
 enemycollision = instance_place(floor(x), floor(y), obj_enemy);
 spikecollision = instance_place(floor(x), floor(y), obj_spikes);
 ghostcollision = instance_place(floor(x), floor(y), obj_ghost);
@@ -315,6 +303,15 @@ if (jumpbuffer &gt; 0)
     }      
 }
 
+// teleport to boss
+//Boss
+if (teleporto == true &amp;&amp; telecount == 0) {
+    room_goto(rm_chest)
+    x = 464;
+    y = 384;
+    telecount = 1
+}
+
 // Horizontal Collision
 if (place_meeting(x+hsp,y,obj_wall))
 {
@@ -390,6 +387,11 @@ if (sprite_active) {
     else if (dir = "left" &amp;&amp; move = 0) {
         sprite_index = spr_playerleft;
     }
+}
+
+if (hp &lt;= 0)
+{
+    audio_stop_sound(snd_explore);
 }
 
 if (life &lt;= 0)
