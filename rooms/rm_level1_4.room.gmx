@@ -92,7 +92,7 @@
     <instance objName="obj_wall" x="1472" y="480" name="inst_B7F65425" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1472" y="416" name="inst_40A9A2C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1472" y="352" name="inst_E68FCEC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_golddoor" x="1472" y="288" name="inst_F9BCCB6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_golddoor" x="1440" y="288" name="inst_F9BCCB6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="1376" name="inst_E90330BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="1312" name="inst_4ADC117B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="1248" name="inst_A8C9CAAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -169,6 +169,8 @@
     <instance objName="obj_grappleblock" x="1280" y="320" name="inst_FF1A6D1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_brick_spawner" x="1359" y="401" name="inst_0F8F77EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_save" x="448" y="704" name="inst_40EA833A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warp" x="1472" y="256" name="inst_494912F2" locked="0" code="target_x = 32&#xA;target_y = 288&#xA;target_r = rm_leveldark&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_chest" x="1344" y="1266" name="inst_F9833461" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tset_bricks" x="0" y="384" w="64" h="64" xo="0" yo="64" id="10001999" name="inst_37BB672E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

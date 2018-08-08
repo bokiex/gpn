@@ -57,8 +57,6 @@
     <instance objName="obj_wall" x="32" y="352" name="inst_98D0359E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="96" y="352" name="inst_572C42A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="160" y="352" name="inst_DFA8FF17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="32" y="288" name="inst_72D2AE17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_gun" x="64" y="288" name="inst_E3E61C0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="224" y="352" name="inst_5BE63DE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="288" y="352" name="inst_6ECD1DB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="352" y="352" name="inst_01D33471" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -302,7 +300,8 @@
     <instance objName="&lt;undefined&gt;" x="1296" y="1088" name="inst_63C19474" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="&lt;undefined&gt;" x="1440" y="1088" name="inst_6910D2D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_flame" x="992" y="304" name="inst_20955430" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_signboard" x="672" y="304" name="inst_D8D65BA5" locked="0" code="text = &quot;Wow where is this place...&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_signboard" x="672" y="304" name="inst_D8D65BA5" locked="0" code="text = &quot;Wow where is this place...&quot;&#xA;signid = 6&#xA;textid = 6&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="64" y="272" name="inst_B27F0F1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tset_bricks" x="0" y="320" w="64" h="64" xo="0" yo="0" id="10001238" name="inst_709AB009" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

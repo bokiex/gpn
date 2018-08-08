@@ -151,19 +151,6 @@ key_next = keyboard_check(ord('T'));
 aim = point_direction(x, y, mouse_x, mouse_y);
 
 //Enemy Collisions
-if place_meeting(x, y, obj_enemy)
-{
-    var enemy
-    enemy = instance_nearest(x, y, obj_enemy);
-    direction = point_direction(x, y, enemy.x, enemy.y) + 185;
-    bounce = 1
-}
-if (bounce == 1)
-{
-    alarm[1] = 5
-    speed = 15
-    bounce = 0
-}
 enemycollision = instance_place(floor(x), floor(y), obj_enemy);
 spikecollision = instance_place(floor(x), floor(y), obj_spikes_parent);
 ghostcollision = instance_place(floor(x), floor(y), obj_ghost);

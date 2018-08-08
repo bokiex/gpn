@@ -48,16 +48,27 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_meeting(x,y,obj_player) &amp;&amp; !instance_exists(obj_text))
+            <string>if place_meeting(x,y,obj_player)
 {
-    scr_text(text, 2, view_xview[0], view_yview[0]+ 640)
+    showtext = 1
 }
-if (!place_meeting(x,y,obj_player) &amp;&amp; instance_exists(obj_text))
+else
 {
-    with(obj_text)
-    {
-        instance_destroy();
-    }
+    showtext = 0
+}
+if (showtext == 1)
+{
+    //text is in creation code of the signboard you want
+    
+    draw_set_color(c_black);
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_middle);
+    draw_text(x,y-64,text);
+    
+    draw_set_color(c_white);
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_middle);
+    draw_text(x,y-64,text);
 }
 </string>
           </argument>
