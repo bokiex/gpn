@@ -25,7 +25,7 @@ switch (state)
         
         hsp = dir * movespeed;
         vsp = (min(7,vsp+grav));
-        if (distance_to_object(obj_player) > 128) state = e_state.idle;
+        if (distance_to_object(obj_player) > 127) state = e_state.idle;
     }
     break;
 }

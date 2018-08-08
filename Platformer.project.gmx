@@ -6,9 +6,9 @@
   <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\snd_shoot</sound>
-    <sound>sound\snd_jump</sound>
     <sound>sound\snd_explore</sound>
+    <sound>sound\snd_jump</sound>
+    <sound>sound\snd_shoot</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Bosses">
@@ -74,16 +74,16 @@
     <sprite>sprites\spr_signpost</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bkr_cavefront</background>
     <background>background\bkr_caveback</background>
+    <background>background\bkr_cavefront</background>
     <background>background\bkr_menu</background>
     <background>background\bkr_menuscreen</background>
-    <background>background\bkr_world</background>
     <background>background\bkr_trees</background>
-    <background>background\tset_ground</background>
-    <background>background\tset_dungeon</background>
-    <background>background\tset_bricks</background>
+    <background>background\bkr_world</background>
     <background>background\tset_blocks</background>
+    <background>background\tset_bricks</background>
+    <background>background\tset_dungeon</background>
+    <background>background\tset_ground</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -104,22 +104,22 @@
     <object>objects\obj_signboard</object>
     <object>objects\obj_torch</object>
     <objects name="Characters">
-      <object>objects\obj_player</object>
       <object>objects\obj_enemy</object>
+      <object>objects\obj_enemydead</object>
       <object>objects\obj_ghost</object>
       <object>objects\obj_miniboss</object>
-      <object>objects\obj_enemydead</object>
+      <object>objects\obj_player</object>
     </objects>
     <objects name="Weapons">
-      <object>objects\obj_grapple</object>
       <object>objects\obj_gun</object>
+      <object>objects\obj_grapple</object>
     </objects>
     <objects name="Chest &amp; Items">
       <object>objects\obj_chest</object>
-      <object>objects\obj_trap_chest</object>
-      <object>objects\obj_hpotion</object>
       <object>objects\obj_goldkey</object>
+      <object>objects\obj_hpotion</object>
       <object>objects\obj_lifepot</object>
+      <object>objects\obj_trap_chest</object>
     </objects>
     <objects name="Blocks">
       <object>objects\obj_grappleblock</object>
@@ -131,23 +131,22 @@
       <object>objects\obj_save</object>
       <object>objects\obj_warp</object>
       <object>objects\obj_cursor</object>
-      <object>objects\obj_controller</object>
       <object>objects\obj_lightingsystem</object>
       <object>objects\obj_backgroundcontrol</object>
     </objects>
     <objects name="Projectiles">
+      <object>objects\obj_bossbullet</object>
       <object>objects\obj_bullet</object>
       <object>objects\obj_dart</object>
-      <object>objects\obj_bossbullet</object>
     </objects>
     <objects name="Traps">
+      <object>objects\obj_brick_spawner</object>
+      <object>objects\obj_bricks</object>
       <object>objects\obj_darttrapactive</object>
       <object>objects\obj_spikes_parent</object>
       <object>objects\obj_pressureplate</object>
       <object>objects\obj_flame</object>
       <object>objects\obj_thrower</object>
-      <object>objects\obj_bricks</object>
-      <object>objects\obj_brick_spawner</object>
       <object>objects\obj_spikes_left</object>
       <object>objects\obj_spikes_right</object>
       <object>objects\obj_spikes_ground</object>
@@ -160,15 +159,16 @@
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_tutorial1_new</room>
     <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_idk</room>
     <room>rooms\rm_leveldark</room>
     <room>rooms\rm_chest</room>
     <rooms name="level1">
+      <room>rooms\rm_level1_4</room>
       <room>rooms\rm_level1_1</room>
       <room>rooms\rm_level1_2</room>
       <room>rooms\rm_level1_3</room>
-      <room>rooms\rm_level1_4</room>
     </rooms>
     <room>rooms\rm_tutorial2</room>
     <rooms name="tests">
