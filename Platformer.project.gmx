@@ -163,6 +163,7 @@
       <object>objects\obj_golddoor</object>
     </objects>
     <object>objects\obj_text</object>
+    <object>objects\obj_thrower_new</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialise</room>
@@ -170,8 +171,8 @@
     <room>rooms\rm_tutorial1</room>
     <room>rooms\rm_bossroom</room>
     <room>rooms\rm_victory</room>
-    <room>rooms\rm_leveldark</room>
     <room>rooms\rm_idk</room>
+    <room>rooms\rm_leveldark</room>
     <room>rooms\rm_chest</room>
     <rooms name="level1">
       <room>rooms\rm_level1_1</room>

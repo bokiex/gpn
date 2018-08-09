@@ -231,9 +231,9 @@
     <instance objName="obj_wall" x="672" y="1184" name="inst_DE0AEAB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="672" y="1248" name="inst_800031A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="224" y="288" name="inst_2D71BD4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_flame" x="664" y="1344" name="inst_7E3F8B3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_flame" x="1736" y="1256" name="inst_A1738C61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_flame" x="272" y="1136" name="inst_7C3C7CF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_flame" x="664" y="1344" name="inst_7E3F8B3B" locked="0" code="spin = true&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_flame" x="1736" y="1256" name="inst_A1738C61" locked="0" code="spin = true&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_flame" x="272" y="1136" name="inst_7C3C7CF8" locked="0" code="spin = true&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy" x="1000" y="1384" name="inst_4DDC236E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy" x="1592" y="1384" name="inst_CA917BAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1304" y="976" name="inst_BCAFE265" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -285,7 +285,7 @@
     <instance objName="obj_wall" x="32" y="48" name="inst_09BF9394" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="112" name="inst_16B6DE4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="224" name="inst_A4068B1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_flame" x="992" y="304" name="inst_20955430" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_flame" x="992" y="304" name="inst_20955430" locked="0" code="spin = true&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_signboard" x="672" y="304" name="inst_D8D65BA5" locked="0" code="text = &quot;Wow where is this place...&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="416" y="544" name="inst_1484FE5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="1424" y="1376" name="inst_B37D8002" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
