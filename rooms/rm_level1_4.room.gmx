@@ -225,7 +225,6 @@
     <instance objName="obj_wall" x="1472" y="96" name="inst_E44058F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1472" y="160" name="inst_64B68F3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1472" y="224" name="inst_D0BF11B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_controller" x="32" y="0" name="inst_B7E0A227" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_backgroundcontrol" x="64" y="0" name="inst_7651510E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lightingsystem" x="96" y="0" name="inst_E94D0FAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_torch" x="160" y="416" name="inst_C5A02E39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

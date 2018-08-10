@@ -31,18 +31,16 @@ vsp = 0;
 jumpSpeed = 7; 
 moveSpeed = 4;
 depth = -10;
-hp = 3000;
+hp = 2000;
 maxhp = hp;
 damaged = false
 aim = 0
 alarm[2] = 0.1 * room_speed
-alarm[6] = 2.8 * room_speed
 alarm[5] = 3 * room_speed
 image_speed = 0.5
 phase_1 = false
 phase_2 = false
 pattern = 0
-alarm[7] = 0.01 * room_speed
 </string>
           </argument>
         </arguments>

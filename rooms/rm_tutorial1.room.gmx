@@ -144,7 +144,7 @@ upon the fabled golden monkey temple.# The treasures here can buy you gallons of
     <instance objName="obj_wall" x="832" y="320" name="inst_F70C1E74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_signboard" x="1162" y="368" name="inst_3A35FF44" locked="0" code="text = &quot;Oh golly! A checkpoint!&quot;&#xA;signid = 4&#xA;textid = 4&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_signboard" x="2608" y="367" name="inst_015594F5" locked="0" code="text = &quot;DANGER!! DO NOT ENTER!!#There are no treasures inside&quot;&#xA;signid = 5&#xA;textid = 5&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_backgroundmusic" x="32" y="0" name="inst_F74A4AA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_backgroundmusic" x="32" y="32" name="inst_F74A4AA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controller" x="64" y="0" name="inst_CBDF4F6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

@@ -11,7 +11,8 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>scr_titletext("Victory!", 2, 1280/4, 720/2)
-obj_player.fallspeed = 7;</code>
+obj_player.fallspeed = 7;
+obj_player.gui = false;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
